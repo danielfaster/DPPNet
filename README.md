@@ -1,8 +1,19 @@
-# DPPNet
+# DPPNet: A Depth Pixel-wise Potential-aware Network for RGB-D Salient Object Detection
 
-   * You can also download the pre-computed saliency maps from [Google Drive]( https://drive.google.com/file/d/1sdKH1Bf7VR-cZGXkyTdkLkqTdzJLl0Kn/view?usp=sharing).
+> **Only prediction results are released for now. Code will be published later.**
 
-   * Our code will be released later.
+## 🔗 Prediction Results
+
+- Download link: **[Google Drive]( https://drive.google.com/file/d/1sdKH1Bf7VR-cZGXkyTdkLkqTdzJLl0Kn/view?usp=sharing)**
+
+## ✅ TODO List
+- [x] Release prediction results
+- [ ] Release the full model code (architecture & configs)
+- [ ] Open-source training and inference pipelines
+
+## Notes
+- This repository currently provides **prediction results** only, for quick comparisons and metric reproduction.
+- Code and weights will be released in a future update.
 
 ## Citation
 
