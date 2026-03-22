@@ -14,17 +14,17 @@
 
 
 # Framework
-![image](https://github.com/danielfaster/DPPNet/blob/main/figures/network.png)
+![image](https://github.com/danielfaster/CTIF-Net/blob/main/figures/framework.png)
 
 
 # Experiment
 1. Visual comparison results
-![image](https://github.com/danielfaster/DPPNet/blob/main/figures/visual_comparsion.png)
+![image](https://github.com/danielfaster/CTIF-Net/blob/main/figures/visual_comparsion.png)
 
 2. Quantitative comparison results
-![image](https://github.com/danielfaster/DPPNet/blob/main/figures/quantitative_comparsion.png)
+![image](https://github.com/danielfaster/CTIF-Net/blob/main//figures/quantitative_comparsion.png)
 
- 
+
 
 
 # Usage
@@ -35,21 +35,50 @@ a single NVIDIA Tesla V100 GPU with 32 GB memory.
 
 ## ⚙️ Environment Setup
 
-We recommend using **Miniconda**.
+We recommend **Python 3.8–3.11** and **Miniconda** (or any virtualenv). **PyTorch must be installed before** `pip install -r requirements.txt`, because CUDA/CPU wheels depend on your machine.
 
-1. Create environment
-```bash
-conda create -n dppnet python=3.8
-conda activate dppnet
-```
-2. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-3. Clone the repo
+### 1. Clone the repository
+
 ```bash
 git clone https://github.com/danielfaster/DPPNet.git
 cd DPPNet
+```
+
+### 2. Create and activate a conda environment (optional)
+
+```bash
+conda create -n dppnet python=3.10
+conda activate dppnet
+```
+
+### 3. Install PyTorch and torchvision
+
+Choose **one** command that matches your GPU driver / CUDA, or use the CPU line. See also the [official PyTorch install guide](https://pytorch.org/get-started/locally/).
+
+**CUDA 11.8** (common on Linux and Windows with recent NVIDIA drivers):
+
+```bash
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+```
+
+**CUDA 12.1:**
+
+```bash
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+```
+
+**CPU only:**
+
+```bash
+pip install torch torchvision
+```
+
+### 4. Install remaining dependencies
+
+`requirements.txt` pins the rest of the stack (e.g. `timm`, `numpy`, `opencv-python`, `Pillow`, `PyYAML`). It is a normal pip list—**not** a conda `file://` export—so it should install on any OS after PyTorch is in place.
+
+```bash
+pip install -r requirements.txt
 ```
 ## 📂 Dataset Preparation
 ### 1. Training Dataset
