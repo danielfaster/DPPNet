@@ -33,7 +33,7 @@ def config(epochs=100,img_size=224,batch_size=10,num_gpus=1,version="v0",decay_e
     parser.add_argument('--is_load_model', default=False, type=bool, help='load model')
 
     # training dataset
-    parser.add_argument('--save_model_dir', default='./checkpoint/' + version + "/RGBD_VST.pth", type=str, help='save model path')
+    parser.add_argument('--save_model_dir', default='./checkpoint/' + version, type=str, help='save model path')
     parser.add_argument('--save_best_mae_model_dir', default='checkpoint/' + version + "/mae/", type=str, help='save model path')
     parser.add_argument('--save_test_mae_model_dir', default='checkpoint/' + version + "/mae_test/", type=str, help='save model path')
     parser.add_argument('--project_dir', default="", type=str, help='save model path')
