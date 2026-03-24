@@ -13,15 +13,15 @@
 - This repository provides code for "_**DPPNet: A Depth Pixel-Wise Potential-Aware Network for RGB-D Salient Object Detection**_" [IEEE Transactions on Multimedia, 2025](URL "[title](https://ieeexplore.ieee.org/abstract/document/10882929)").
 
 
-# Framework
+## Framework
 ![image](https://github.com/danielfaster/DPPNet/blob/main/figures/network.png)
 
 
-# Experiment
-1. Visual comparison results
+## Experiment
+### 1. Visual comparison results
 ![image](https://github.com/danielfaster/DPPNet/blob/main/figures/visual_comparsion.png)
 
-2. Quantitative comparison results
+### 2. Quantitative comparison results
 ![image](https://github.com/danielfaster/DPPNet/blob/main//figures/quantitative_comparsion.png)
 
 
