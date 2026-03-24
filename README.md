@@ -14,15 +14,15 @@
 
 
 # Framework
-![image](https://github.com/danielfaster/CTIF-Net/blob/main/figures/framework.png)
+![image](https://github.com/danielfaster/DPPNet/blob/main/figures/network.png)
 
 
 # Experiment
 1. Visual comparison results
-![image](https://github.com/danielfaster/CTIF-Net/blob/main/figures/visual_comparsion.png)
+![image](https://github.com/danielfaster/DPPNet/blob/main/figures/visual_comparsion.png)
 
 2. Quantitative comparison results
-![image](https://github.com/danielfaster/CTIF-Net/blob/main//figures/quantitative_comparsion.png)
+![image](https://github.com/danielfaster/DPPNet/blob/main//figures/quantitative_comparsion.png)
 
 
 
