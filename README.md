@@ -67,7 +67,7 @@ pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
 ```
 
-**CPU only:**
+**CPU only:** [not recommended]
 
 ```bash
 pip install torch torchvision
@@ -134,6 +134,10 @@ python inference.py
 ```
 ## Evaluating your trained model
 
+
+## 🔗 Prediction Results
+
+- Download link: **[Google Drive]( https://drive.google.com/file/d/1sdKH1Bf7VR-cZGXkyTdkLkqTdzJLl0Kn/view?usp=sharing)**
 
 ## ⭐ Acknowledgement
 
